@@ -16,7 +16,7 @@ var MainViewModel = (function (_super) {
     function MainViewModel() {
         var self = this;
 
-        self.everlive = new Everlive('ILpA4u3eVMJjquco');// new Everlive('<ENTER_YOUR_API_KEY_HERE>');
+        self.everlive = new Everlive('<ENTER_YOUR_API_KEY_HERE>');
 
         var isDeviceRegistered = false;
         var disableButton = false;
@@ -100,7 +100,7 @@ var MainViewModel = (function (_super) {
             },
             //Android - specific settings
             android: {
-                projectNumber: '406987471724'
+                projectNumber: '<ENTER_YOUR_PROJECT_NUMBER>'
             },
             notificationCallbackAndroid: function callback(data) {
                 //Show a dialog with the push notification

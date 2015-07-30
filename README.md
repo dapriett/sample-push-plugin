@@ -1,3 +1,9 @@
+# Prerequisites
+
+In order to run this sample, you have to enable the Push Notifications functionality in your Backend Services project. You can see more details how to setup the Android and iOS platforms in the Backend Services here:
+
+http://docs.telerik.com/platform/backend-services/features/push-notifications/setup
+
 # Getting Started
 
 - Add the NativeScript Push Plugin
@@ -5,8 +11,12 @@
 		tns plugin add nativescript-push-notifications 	
 
 - Go to main-view-model and set the correct settings:
-	-	 Set your Everlive API Key at Line 19: self.everlive = new Everlive('<ENTER_YOUR_API_KEY_HERE>');
-	-	 Android: Set your project number at Line 103: projectNumber: '<ENTER_YOUR_PROJECT_NUMBER>'
+	-	 Set your Everlive API Key at:
+
+			self.everlive = new Everlive('<ENTER_YOUR_API_KEY_HERE>');
+	-	 Android: Set your project number
+ 
+			projectNumber: '<ENTER_YOUR_PROJECT_NUMBER>'
 	
 ## Android
 
