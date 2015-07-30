@@ -1,0 +1,36 @@
+﻿.title {
+    font-size: 25;
+    horizontal-align: center;
+    color: #000000;
+    margin: 15;
+}
+
+button {
+    font-size: 22;
+    horizontal-align: center;
+}
+
+.registrationMessage {
+    font-size: 15;
+    margin: 5;
+    color: #000000;
+    horizontal-align: center;
+}
+
+.registrationButton {
+    background-color: #3598db;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .5px;
+
+    display: block;
+    margin: auto;
+    padding: 0;
+
+    overflow: hidden;
+
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}

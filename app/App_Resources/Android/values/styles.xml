@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application theme -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+		<item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>	
+	 <style name="MyActionBar"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:height">88dip</item>
+        <item name="android:background">#2d3e50</item>
+        <item name="android:icon">@drawable/telerik_logo</item>
+    </style>
+	
+	<style name="SplashTheme" parent="AppBaseTheme">
+        <!-- Disable window features like ActionBar, Title and Overlay. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+	
+	<style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

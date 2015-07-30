@@ -1,0 +1,12 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <StackLayout>
+        <Label text="{{headerText}}" cssClass="title" textWrap="true"/>
+
+        <Label text="{{ registrationMessage }}" cssClass="registrationMessage" textWrap="true"/>
+        <ActivityIndicator col="2" busy="{{ isLoading }}" horizontalAlignment="center"/>
+
+        <Button text="{{ buttonText }}" tap="{{ registrationTapAction }}" cssClass="registrationButton"/>
+
+        <Label text="{{ pushMessage }}" cssClass="pushMessage" textWrap="true"/>
+    </StackLayout>
+</Page>
