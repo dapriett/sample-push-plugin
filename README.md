@@ -1,10 +1,20 @@
-# Prerequisites
+- [Description](#description)
+- [Requirements](#requirements)
+- [Getting started](#getting-started)
 
-In order to run this sample, you have to enable the Push Notifications functionality in your Backend Services project. You can see more details how to setup the Android and iOS platforms in the Backend Services here:
+# Description
 
-http://docs.telerik.com/platform/backend-services/features/push-notifications/setup
+This sample shows an integration between the [NativeScript Push Notifications plugin](https://github.com/NativeScript/push-plugin) with [Telerik Backend Services](http://www.telerik.com/backend-services). 
 
-# Getting Started
+# Requirements
+
+   * Registration in [Telerik Platform](https://platform.telerik.com)
+   * A new or existing Backend Services project in your Platform account.
+   * The project must be configured for push notifications as specified in the Backend Services [documentation](http://docs.telerik.com/platform/backend-services/features/push-notifications/setup).
+
+> In order to send a notification to a subset of users you will need a Telerik Platform [subscription plan](http://www.telerik.com/purchase/platform) that supports "Push to Segment".
+
+# Running the sample
 
 - Add the NativeScript Push Plugin
 
@@ -24,7 +34,7 @@ http://docs.telerik.com/platform/backend-services/features/push-notifications/se
 
 		tns platform add android 
 
-- Add google play services, as GCM is part of it. It's present in the android-sdk. Add it like this: 
+- Add Google Play Services, as GCM is part of it. It's present in the android-sdk. Add it like this (NOTE: your path may be different, it depends on the installation path of the Android SDK): 
 
 		tns library add android C:\Users\your_user_name\AppData\Local\Android\android-sdk\extras\google\google_play_services\libproject\google-play-services_lib\libs
 
@@ -37,10 +47,6 @@ http://docs.telerik.com/platform/backend-services/features/push-notifications/se
 
 ## iOS
 
-- Add the iOS platform to the sample
-
-		tns platform add ios
-
 - Set the correct bundle ID in the package.json at the root level of the project. The ID should be the same as in your Certificate for Push Notifications.
 
 ```javascript
@@ -49,6 +55,10 @@ http://docs.telerik.com/platform/backend-services/features/push-notifications/se
 		...
 	}
 ````
+
+- Add the iOS platform to the sample
+
+		tns platform add ios
 
 - Run the applications
 
