@@ -104,9 +104,15 @@ var MainViewModel = (function (_super) {
             },
             notificationCallbackAndroid: function callback(data) {
                 //Show a dialog with the push notification
+                //Remove undeeded quotes
+                var message = JSON.stringify(data);
+                if (message.charAt(0) === '"' && message.charAt(message.length -1) === '"')
+                {
+                    message = message.substr(1,message.length -2);
+                }
                 dialogs.alert({
                     title: "Push Notification",
-                    message: JSON.stringify(data),
+                    message: message,
                     okButtonText: "OK"
                 }).then(function () {
                     console.log("Dialog closed!");
