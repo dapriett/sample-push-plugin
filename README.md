@@ -16,7 +16,7 @@ This sample shows an integration between the [NativeScript Push Notifications pl
 
 # Running the sample
 
-- Add the NativeScript Push Plugin
+- Go to the /app folder and add the NativeScript Push Plugin
 
 		tns plugin add nativescript-push-notifications 	
 
