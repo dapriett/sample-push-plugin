@@ -16,9 +16,9 @@ This sample shows an integration between the [NativeScript Push Notifications pl
 
 # Running the sample
 
-- Go to the /app folder and add the NativeScript Push Plugin
+- Go to the /app folder and install dependencies
 
-		tns plugin add nativescript-push-notifications 	
+		tns install 	
 
 - Go to main-view-model and set the correct settings:
 	-	 Set your Everlive API Key at:
@@ -29,10 +29,6 @@ This sample shows an integration between the [NativeScript Push Notifications pl
 			projectNumber: '<ENTER_YOUR_PROJECT_NUMBER>'
 	
 ## Android
-
-- Add the android platform to the sample
-
-		tns platform add android 
 
 - Run the application
 
@@ -50,10 +46,6 @@ This sample shows an integration between the [NativeScript Push Notifications pl
 		...
 	}
 ````
-
-- Add the iOS platform to the sample
-
-		tns platform add ios
 
 - Run the applications
 

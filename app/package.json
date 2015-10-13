@@ -1,9 +1,9 @@
 {
-	"name": "tns-template-hello-world",
+	"name": "sample-push-plugin",
 	"main": "app.js",
-	"version": "1.2.0",
+	"version": "1.0.0",
 	"author": "Telerik <support@telerik.com>",
-	"description": "Nativescript hello-world project template",
+	"description": "NativeScript Push Notifications plugin sample with Telerik Backend Services.",
 	"license": "BSD",
 	"keywords": [
 		"telerik",
@@ -12,14 +12,14 @@
 		"{N}",
 		"tns",
 		"appbuilder",
-		"template"
+		"push"
 	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/NativeScript/template-hello-world.git"
+		"url": "git@github.com:NativeScript/sample-push-plugin.git"
 	},
 	"bugs": {
-		"url": "https://github.com/NativeScript/template-hello-world/issues"
+		"url": "https://github.com/NativeScript/sample-push-plugin/issues"
 	},
-	"homepage": "https://github.com/NativeScript/template-hello-world"
+	"homepage": "https://github.com/NativeScript/sample-push-plugin"
 }
